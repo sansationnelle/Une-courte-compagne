@@ -1,0 +1,1 @@
+/* Ce code permet de formatter un text pour y mettre de la couleur par exemple si on met [0] dans le texte */
