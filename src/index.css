@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'MonParchemin';
+  src: url('./src/fonts/Parchment.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Papyrus';
+  src: url('./src/fonts/papyrus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Enregistrement des classes Tailwind */
+@theme {
+  --font-parchemin: 'MonParchemin', serif;
+  --font-papyrus: 'Papyrus', sans-serif; /* Nom de la 2e classe */
+}

@@ -18,6 +18,7 @@ const Layout = () => {
         <NavLink to="/" className={({ isActive }) => (isActive ? "font-bold" : "")}>Accueil</NavLink>
         <NavLink to="/personages" className={({ isActive }) => (isActive ? "font-bold" : "")}>Personages</NavLink>
         <NavLink to="/regles" className={({ isActive }) => (isActive ? "font-bold" : "")}>Règles</NavLink>
+        <NavLink to="/faction" className={({ isActive }) => (isActive ? "font-bold" : "")}>Faction</NavLink>
         </nav>
         </div>
       </header>

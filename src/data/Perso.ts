@@ -31,4 +31,14 @@ export const All_CHaracters: Perso[] = [
     histoire: "",
     stats: {att: 3, def: 2, hp: 3, move: 5, range: 2, taille: 1.5}
   },
+  {
+    id: 4,
+    nom: "Slime Cube",
+    categorie: "Boss",
+    faction: "Slime",
+    images: "",
+    passif: "Famine, satiété",
+    histoire: "Les Slimes sont une seule et même entité qui se divise pour mieux régner. Chaque membre de cette même espèce partage une seule et même conscience n'ayant qu'un seul but, se nourrir. Un seul contact avec cette masse gélatineuse et c'est fini pour vous.",
+    stats: {att: 6, def: 4, hp: 9, move: 1, range: 0, taille: 6}
+  },
 ]
